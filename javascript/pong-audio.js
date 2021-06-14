@@ -43,10 +43,10 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("tap-percussive.mp3"); //load sound
+export var wallSound = new soundFile("tap-percussive-4.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("tap-resonant.mp3");
+export var paddleSound = new soundFile("tap-resonant-4.mp3");
 soundArray.push(paddleSound);
 
 export var scoreSound = new soundFile("ocean_waves-4.mp3");
@@ -62,7 +62,7 @@ soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -16;
 
-export var villageMusic = new soundFile("phaserDown2.mp3");
+export var villageMusic = new soundFile("phaserDown2-4.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
 villageMusic.player.volume.value = -16;
