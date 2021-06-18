@@ -49,7 +49,7 @@ soundArray.push(wallSound); //add sound to list of sounds
 export var paddleSound = new soundFile("tap-resonant-4.mp3");
 soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("ocean-waves-4.mp3");
+export var scoreSound = new soundFile("phaserDown2-4.mp3");
 soundArray.push(scoreSound);
 
 export var ambientSound = new soundFile("Eight_Bit_Village_Loop-4.mp3");
