@@ -64,5 +64,5 @@ adventureMusic.player.volume.value = -16;
 
 export var villageMusic = new soundFile("Adventure_Meme-4.mp3");
 soundArray.push(villageMusic);
-villageMusic.player.loop = true;
-villageMusic.player.volume.value = -16;
+villageMusic.player.loop = false;
+villageMusic.player.volume.value = -10;
