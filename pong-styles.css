@@ -25,7 +25,7 @@ body {
 }
 
 #right-paddle {
-  background-color: black;
+  background-color: red;
   right: 10px;
 }
 
@@ -76,7 +76,7 @@ body {
 .ball {
   width: 20px;
   height: 20px;
-  background-color: green;
+  background-color: black;
   border-radius: 10px;
   position: absolute;
   left: 50px;
