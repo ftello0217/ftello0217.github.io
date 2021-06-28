@@ -62,7 +62,7 @@ soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -16;
 
-export var villageMusic = new soundFile("Adventure_Meme-4.mp3");
+export var villageMusic = new soundFile("spring-weather-1.mp3");
 soundArray.push(villageMusic);
-villageMusic.player.loop = false;
-villageMusic.player.volume.value = -10;
+villageMusic.player.loop = true;
+villageMusic.player.volume.value = -5;
